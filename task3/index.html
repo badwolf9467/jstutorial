@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function changeColor() {
+        var colors = ['red', 'green', 'blue'];
+        var color = colors[Math.floor(Math.random() * colors.length)];
+        var par = document.getElementById('test');
+        par.style.backgroundColor = color;
+    }
+
+</script>
+<button type="button" onclick="changeColor()"></button>
+<p id="test">doasdkao kdakos kdo</p>
+</body>
+</html>
