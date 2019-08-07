@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Change the content of a cell</title>
+</head>
+<body>
+<script src="script.js"></script>
+
+<table id="myTable" border="1">
+    <tr><td>Row1 cell1</td>
+        <td>Row1 cell2</td></tr>
+    <tr><td>Row2 cell1</td>
+        <td>Row2 cell2</td></tr>
+    <tr><td>Row3 cell1</td>
+        <td>Row3 cell2</td></tr>
+</table>
+<form>
+    Which row do you want to change?:<br/>
+    <input id="row" name="row"><br/>
+    Which column?:<br/>
+    <input id="column" name="column"><br/>
+    What should appear in a cell?:<br/>
+    <input id="string" name="string"><br/>
+    <input type="button" onclick="changeContent()" value="Change content">
+</form>
+</body>
+</html>
