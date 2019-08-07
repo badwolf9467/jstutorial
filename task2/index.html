@@ -5,18 +5,8 @@
     <title>Return first and last name from a form - w3resource</title>
 </head>
 <body>
-<script>
-    function getFormvalue() {
-        var form = document.getElementById('form1');
-        var txt = "";
-        for (i=0; i<form.length; i++){
-            if (form.elements[i].value !== 'Submit'){
-                txt = txt + form.elements[i].value + "<br/>"
-            }
-        }
-       
+<script src="script.js">
 
-    }
 </script>
 
 <form id="form1" onsubmit="getFormvalue()">
